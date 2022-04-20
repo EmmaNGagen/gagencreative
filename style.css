@@ -19,6 +19,7 @@ body {
     margin-left: 10px;
     width: 140px;
     height: 50px;
+    box-shadow: none;
   }
 
   .navbar {
@@ -53,6 +54,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
   .textSection {
     display: flex;
@@ -87,25 +91,49 @@ body {
     font-weight: 600;
     margin: 30px 35px;
     cursor: pointer;
+    max-width: 180px;
+  }
+  .imgHeroSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 60px;
+  }
+  .heroArt {
+    width: 290px;
+    height: 400px;
+  }
+  .artSectionDesktop {
+    display: flex;
+    flex-direction: column;
+  }
+  .artDivtitle {
+    float: right;
+  }
+  .artLinkDesktop {
+    text-decoration: underline;
+    cursor: pointer;
+    position: sticky;
+    padding: 15px;
+  }
+  .artDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .artDivOne {
+    padding: 15px;
+  }
+  .artDivTwo {
+    padding: 15px;
   }
   .artSection {
-    padding-top: 60px;
-    padding-bottom: 20px;
+    display: none;
   }
   .artText {
     text-align: center;
     font-size: 18px;
-  }
-  .artworkSectionOne {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .artworkSectionTwo {
-    padding-top: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
   }
 
   img {
@@ -140,9 +168,9 @@ body {
     font-weight: 600;
     cursor: pointer;
   }
+
   .artLink {
-    text-decoration: underline;
-    cursor: pointer;
+    display: none;
   }
   .contactTitel {
     font-size: 30px;
@@ -387,10 +415,20 @@ body {
     font-weight: 600;
     margin: 30px 35px;
     cursor: pointer;
+    max-width: 180px;
+  }
+  .imgHeroSection {
+    display: none;
+  }
+  .artSectionDesktop {
+    display: none;
   }
   .artSection {
     padding-top: 60px;
     padding-bottom: 20px;
+  }
+  .artLinkDesktop {
+    display: none;
   }
   .artText {
     text-align: center;
