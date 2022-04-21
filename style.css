@@ -54,7 +54,7 @@ body {
     cursor: pointer;
   }
   .hero-wrapper {
-    background: url("assets/hero.png");
+    background: url("./assets/hero.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -389,7 +389,7 @@ body {
   }
 
   .hero-wrapper {
-    background: url("assets/hero.png");
+    background: url("./assets/hero.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
