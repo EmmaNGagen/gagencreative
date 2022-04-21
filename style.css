@@ -45,6 +45,10 @@ body {
     text-decoration: none;
     color: rgb(0, 0, 0);
   }
+  .nav-link:hover {
+    color: #7fb069;
+  }
+
   .hamburger {
     display: none;
     cursor: pointer;
@@ -92,6 +96,9 @@ body {
     margin: 30px 35px;
     cursor: pointer;
     max-width: 180px;
+  }
+  .button:hover {
+    background-color: #134f29;
   }
   .imgHeroSection {
     display: flex;
@@ -167,6 +174,9 @@ body {
     font-size: 18px;
     font-weight: 600;
     cursor: pointer;
+  }
+  .contactButton:hover {
+    background-color: #134f29;
   }
 
   .artLink {
@@ -253,6 +263,11 @@ body {
     max-width: 200px;
     cursor: pointer;
   }
+
+  .shopButton:hover {
+    background-color: #134f29;
+  }
+
   .totebag {
     width: 210px;
     height: 340px;
