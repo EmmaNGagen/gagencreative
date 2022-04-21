@@ -309,6 +309,11 @@ body {
     color: white;
     font-family: "Gruppo", cursive;
   }
+
+  .footerNav:hover {
+    color: #7fb069;
+  }
+
   .copyrights {
     color: #bdbcbc;
     padding-top: 50px;
