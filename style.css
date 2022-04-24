@@ -14,6 +14,7 @@ body {
     z-index: 1000;
     height: 80px;
     top: -5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   }
   .logo {
     margin-left: 10px;
@@ -320,6 +321,82 @@ body {
     font-size: 25px;
     text-align: center;
   }
+  /*-----------------------------KONTAKT SIDAN---------------------------------*/
+
+  .contactSection {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+  }
+  .contactTitle {
+    padding-top: 50px;
+    color: black;
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0;
+    text-align: center;
+  }
+  .line {
+    width: 35%;
+    text-align: center;
+    border: 4px solid;
+    color: #7fb069;
+  }
+
+  .firstContactSection {
+    background-color: #ece4b7;
+    width: 1500px;
+    margin: 0;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .contactTextOne {
+    font-size: 25px;
+  }
+
+  .contactTextTwo {
+    font-size: 22px;
+  }
+
+  label {
+    font-family: "Mulish", sans-serif;
+    font-weight: 500;
+  }
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #7fb069;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: "Gruppo", cursive;
+  }
+
+  input[type="submit"] {
+    background-color: #7fb069;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: "Mulish", sans-serif;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #134f29;
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: #ece4b7;
+    padding: 45px;
+  }
 }
 
 @media only screen and (max-width: 640px) {
@@ -328,6 +405,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 9999;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   }
   .logo {
     margin-left: 10px;
@@ -609,5 +687,69 @@ body {
     color: #bdbcbc;
     padding-top: 50px;
     font-size: 25px;
+  }
+
+  /*------------------------------KONTAKT SIDAN-----------------------------------*/
+
+  .contactTitle {
+    padding-top: 50px;
+    color: black;
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0;
+    text-align: center;
+  }
+  .line {
+    width: 35%;
+    text-align: center;
+    border: 4px solid;
+    color: #7fb069;
+  }
+
+  .firstContactSection {
+    background-color: white;
+    height: 250px;
+    margin: 0;
+    padding-top: -80px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  label {
+    font-family: "Mulish", sans-serif;
+    font-weight: 500;
+  }
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #7fb069;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: "Gruppo", cursive;
+  }
+
+  input[type="submit"] {
+    background-color: #7fb069;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: "Mulish", sans-serif;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #134f29;
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: #ece4b7;
+    padding: 45px;
   }
 }

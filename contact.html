@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gagen Creative</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gruppo&family=Mulish:wght@400;500;600;700;900&family=Syncopate&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="assets/gagenLogo.png" alt="logo" />
+      <nav class="navbar">
+        <li class="navBtn">
+          <a href="index.html" class="nav-link">Hem</a>
+        </li>
+        <li class="navBtn">
+          <a href="" class="nav-link">Konst</a>
+        </li>
+        <li class="navBtn"><a href="#" class="nav-link">Shop</a></li>
+      </nav>
+      <div id="burgerBtn" class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </header>
+    <main>
+      <h3 class="contactTitle">Kontakta oss</h3>
+      <hr class="line" />
+      <section class="contactSection">
+        <div class="firstContactSection">
+          <h4 class="contactTextOne">
+            Nyfiken på offert på tavla <br />
+            eller vill du bara komma i kontakt med oss?
+          </h4>
+          <p class="contactTextTwo">
+            Kontakta oss via formuläret <br />
+            så återkommer vi så snart vi kan.
+          </p>
+        </div>
+        <div>
+          <div class="container">
+            <form>
+              <label for="firstname">Ditt förnamn</label>
+              <input type="text" id="firstname" name="firstname" placeholder="Ditt förnamn.." />
+
+              <label for="lastname">Ditt efternman</label>
+              <input type="text" id="lastname" name="lastname" placeholder="Ditt efternman.." />
+
+              <label for="email">Din email</label>
+              <input type="text" id="email" name="email" placeholder="Din email.." />
+
+              <label for="subject">Meddelande</label>
+              <textarea
+                id="subject"
+                name="subject"
+                placeholder="Skriv här.."
+                style="height: 150px"
+              ></textarea>
+
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="footerFlex">
+        <img class="icon" src="assets/gagenIcon.png" alt="icon" />
+        <div class="footerDiv">
+          <h3 class="footerTitle">Genvägar</h3>
+          <a class="footerNav" href="index.html">Hem</a>
+          <a class="footerNav" href="">Konst</a>
+          <a class="footerNav" href="">Shop</a>
+        </div>
+        <br />
+        <div class="footerDiv">
+          <h3 class="footerTitle">Hör gärna av dig</h3>
+          <a class="footerNav" href="contact.html">Kontakta oss</a>
+        </div>
+
+        <br />
+        <div class="footerDiv">
+          <h3 class="footerTitle">Följ oss</h3>
+          <a class="footerNav" href="">Instagram</a>
+          <a class="footerNav" href="">Facebook</a>
+          <a class="footerNav" href="">Tiktok</a>
+        </div>
+      </section>
+      <p class="copyrights">Copyrights © Gagen Creatives 2021</p>
+    </footer>
+  </body>
+</html>
