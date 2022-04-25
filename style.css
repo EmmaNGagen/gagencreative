@@ -179,7 +179,10 @@ body {
   .contactButton:hover {
     background-color: #134f29;
   }
-
+  .contactABtn {
+    text-decoration: none;
+    color: white;
+  }
   .artLink {
     display: none;
   }
